@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'me'
-SITENAME = 'Blog'
+AUTHOR = 'Fernando Nogueira'
+SITENAME = 'Data Blog'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'America/Los_Angeles'
+TIMEZONE = 'America/Toronto'
 
 DEFAULT_LANG = 'en'
 
@@ -31,10 +31,10 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
-MARKUP = ('md', 'ipynb')
-
-PLUGIN_PATH = './plugins'
-PLUGINS = ['ipynb.markup']
-
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+MARKUP = ('md', 'ipynb')
+
+PLUGIN_PATH = ['./plugins']
+PLUGINS = ['ipynb.markup']
